@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<widget id="com.pixolo.pickndrop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>pnd</name>
+    <description>
+        An Pixolo Project
+    </description>
+    <author email="pixoloproductions@gmail.com" href="http://pixolo.co.in/">
+        Pixolo Team
+    </author>
+
+<!--<preference name="phonegap-version" value="3.6.3" />
+    <preference name="fullscreen" value="false" />
+    <preference name="splash-screen-duration" value="5000" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />-->
+   
+
+
+    <icon src="img/logo.png" />
+    <!--<gap:splash src="img/splash.png" />-->
+
+    <content src="index.html" />
+    <access origin="*" />
+    
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackupWebStorage" value="none" />
+
+    <!--<preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="false" />-->
+
+    <!--<preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />-->
+    <!--
+    <gap:splash src="www/img/splash.png" />-->
+
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </feature>
+</widget>
